@@ -14,3 +14,14 @@ h1{
   padding-top: 15px;
 }
 
+.contenedor{
+  display: flex;
+}
+.dev{
+  padding-top: 5%
+}
+.logo{
+  padding-top: 25px;
+  text-align: center;
+  width: 350px;
+}

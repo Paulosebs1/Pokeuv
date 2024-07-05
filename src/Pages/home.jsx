@@ -1,6 +1,6 @@
 function Home() {
     return <div>
-        <img src="Components\image.png" alt="Logo"/>
+        <img class="logo"src="public\image.png" alt="Logo"/>
 
     </div>
 }

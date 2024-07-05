@@ -42,7 +42,10 @@ const teamMembers = [
 
 const TeamProfiles = () => {
   return (<div>
-    <h1 class="text-center" >Dev team</h1>
+    <div class="contenedor">
+        <img class="logo"src="public\image.png" alt="Logo"/>
+        <h1 class="dev">Dev Team</h1>
+    </div>
     <Container className="my-5">
       <Row>
         {teamMembers.map((member, index) => (
