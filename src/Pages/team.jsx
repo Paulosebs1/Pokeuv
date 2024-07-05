@@ -33,7 +33,7 @@ const teamMembers = [
     imgSrc: "public/imgankatu.png"
   },
   {
-    name: 'Ayudante',
+    name: 'Ashly Mazuela',
     role: "Ayudante de asignatura",
     pokemon: "Growlithe",
     imgSrc: "public/imgayudante.png"

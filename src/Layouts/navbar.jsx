@@ -4,9 +4,9 @@ import { Outlet, Link } from "react-router-dom"
 function navbarpag() {
     return (
         <>
-            <Navbar bg="dark" data-bs-theme="dark" >
+            <Navbar bg="danger" data-bs-theme="light">
                 <Container>
-                    <Navbar.Brand as={Link} to="/">PokeUv</Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/"><img src="public\image.png" alt="Logo" width="100px" /></Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
                         <Nav.Link as={Link} to="/elementos">Elementos</Nav.Link>
