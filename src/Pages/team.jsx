@@ -43,7 +43,6 @@ const teamMembers = [
 const TeamProfiles = () => {
   return (<div>
     <div class="contenedor">
-        <img class="logo"src="public\image.png" alt="Logo"/>
         <h1>Dev Team</h1>
     </div>
     <Container className="my-5">

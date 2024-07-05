@@ -3,12 +3,8 @@ function Home() {
         <div class="contenedor">
             
         </div>
-        <div>
-            <h2 class="text-center">
-                Bienvenidos a la pokedex creada por los estudiantes de <br/> ingenieria civil informatica
-                de primer año.
-            </h2>
-            <h3 class="text-center">para crear esta web utilizamos react y bootstrap</h3>
+        <div className="Infor">
+            <h1>Bienvenidos a Pokeuv <br/> Una pokedex creada por los estudiantes de Ing. Civil Informatica uv</h1>
         </div>
     </div>
 }
