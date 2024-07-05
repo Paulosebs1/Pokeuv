@@ -1,7 +1,9 @@
 function Anex() {
     return <div>
-        <h1 class="text-center">Anexos</h1>
-
+        <div class="contenedor">
+            <img class="logo"src="public\image.png" alt="Logo"/>
+            <h1>Anexos</h1>
+        </div>
     </div>
 }
 

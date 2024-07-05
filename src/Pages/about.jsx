@@ -1,6 +1,9 @@
 function About() {
     return <div>
-        <h1 class="text-center">About</h1>
+        <div class="contenedor">
+            <img class="logo"src="public\image.png" alt="Logo"/>
+            <h1>About</h1>
+        </div>
     </div>
 }
 

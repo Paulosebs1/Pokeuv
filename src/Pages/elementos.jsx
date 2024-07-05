@@ -1,6 +1,9 @@
 function Elementos() {
     return <div>
-        <h1 class="text-center">Elementos</h1>
+        <div class="contenedor">
+            <img class="logo"src="public\image.png" alt="Logo"/>
+            <h1>Elementos</h1>
+        </div>
     </div>
 }
 

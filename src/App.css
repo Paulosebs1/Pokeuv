@@ -16,12 +16,12 @@ h1{
 
 .contenedor{
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-.dev{
-  padding-top: 5%
-}
+
 .logo{
   padding-top: 25px;
-  text-align: center;
   width: 350px;
 }

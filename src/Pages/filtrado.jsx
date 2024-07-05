@@ -1,7 +1,9 @@
 function Filtro() {
     return <div>
-        <h1 class="text-center">Filtrado de datos</h1>
-
+        <div class="contenedor">
+            <img class="logo"src="public\image.png" alt="Logo"/>
+            <h1>Filtro de datos</h1>
+        </div>
     </div>
 }
 
