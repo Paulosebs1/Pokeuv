@@ -6,37 +6,37 @@ const teamMembers = [
     name: "Martín Cáceres",
     role: "Diseñador Principal y PixelArt",
     pokemon: 'Darumaka',
-    imgSrc: ""
+    imgSrc: "public/imgmartin.png"
   },
   {
     name: "Angelo De La Rivera",
     role: "Coordinador y Programador",
     pokemon: "Blaziken",
-    imgSrc: ""
+    imgSrc: "public/imgangelo.png"
   },
   {
     name: "Paulo González",
     role: "Coordinador y Programador",
     pokemon: "Marill",
-    imgSrc: "Components/imgpaulo"
+    imgSrc: "public/imgpaulo.png"
   },
   {
     name: "Benjamín Serrano",
     role: "Profesor de asignatura",
     pokemon: "Snorlax",
-    imgSrc: ""
+    imgSrc: "public/imgprofe.png"
   },
   {
     name: "Ankatu Paillacar",
     role: "Programador, Tester",
     pokemon: "Voltorb",
-    imgSrc: ""
+    imgSrc: "public/imgankatu.png"
   },
   {
     name: 'Ayudante',
     role: "Ayudante de asignatura",
     pokemon: "Growlithe",
-    imgSrc: ""
+    imgSrc: "public/imgayudante.png"
   }
 ];
 
