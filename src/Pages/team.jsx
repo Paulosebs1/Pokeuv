@@ -9,7 +9,7 @@ const teamMembers = [
     imgSrc: ""
   },
   {
-    name: "Angelo De La Riviera",
+    name: "Angelo De La Rivera",
     role: "Coordinador y Programador",
     pokemon: "Blaziken",
     imgSrc: ""
@@ -18,7 +18,7 @@ const teamMembers = [
     name: "Paulo González",
     role: "Coordinador y Programador",
     pokemon: "Marill",
-    imgSrc: ""
+    imgSrc: "Components/imgpaulo"
   },
   {
     name: "Benjamín Serrano",
@@ -41,7 +41,8 @@ const teamMembers = [
 ];
 
 const TeamProfiles = () => {
-  return (
+  return (<div>
+    <h1 class="text-center" >Dev team</h1>
     <Container className="my-5">
       <Row>
         {teamMembers.map((member, index) => (
@@ -60,7 +61,8 @@ const TeamProfiles = () => {
         ))}
       </Row>
     </Container>
+    </div>
   );
 }
 
-export default TeamProfiles;
+export default TeamProfiles

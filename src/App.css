@@ -9,3 +9,12 @@ section{
   color: black;
 }
 
+h1{
+  font-family: cursive;
+  padding-top: 15px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}

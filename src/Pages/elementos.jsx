@@ -1,6 +1,6 @@
 function Elementos() {
     return <div>
-        <h1>Elementos</h1>
+        <h1 class="text-center">Elementos</h1>
     </div>
 }
 

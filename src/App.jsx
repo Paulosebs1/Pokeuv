@@ -5,7 +5,7 @@ import Home from './Pages/home'
 import Team from './Pages/team'
 import Navbarpag from './Layouts/navbar'
 import Elementos from './Pages/elementos'
-import Filtro from './Pages/filtro'
+import Filtro from './Pages/filtrado'
 import Anex from './Pages/anexas'
 
 function App() {

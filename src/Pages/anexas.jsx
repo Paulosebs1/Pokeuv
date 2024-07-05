@@ -1,6 +1,6 @@
 function Anex() {
     return <div>
-        <h1>Anexos</h1>
+        <h1 class="text-center">Anexos</h1>
 
     </div>
 }
