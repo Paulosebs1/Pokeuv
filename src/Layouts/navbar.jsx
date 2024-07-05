@@ -10,7 +10,9 @@ function navbarpag() {
                     <Nav className="me-auto">
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
                         <Nav.Link as={Link} to="/elementos">Elementos</Nav.Link>
+                        <Nav.Link as={Link} to="/filtrado_de_datos">Filtrar</Nav.Link>
                         <Nav.Link as={Link} to="/about">About</Nav.Link>
+                        <Nav.Link as={Link} to="/pag_anexas">Anexos</Nav.Link>
                         <Nav.Link as={Link} to="/dev_team">Dev team</Nav.Link>
                     </Nav>
                 </Container>

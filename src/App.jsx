@@ -5,6 +5,8 @@ import Home from './Pages/home'
 import Team from './Pages/team'
 import Navbarpag from './Layouts/navbar'
 import Elementos from './Pages/elementos'
+import Filtro from './Pages/filtro'
+import Anex from './Pages/anexas'
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
               <Route index element={ <Home /> } />
               <Route path='dev_team' element={ <Team /> } />
               <Route path='elementos' element={ <Elementos /> } />
+              <Route path='filtrado_de_datos' element={ <Filtro /> } />
+              <Route path='pag_anexas' element={ <Anex /> } />
 
               <Route path='*' element={ <Navigate replace to="/" /> } />
             </Route>
