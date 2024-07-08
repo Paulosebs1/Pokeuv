@@ -45,7 +45,7 @@ const TeamProfiles = () => {
     <div class="contenedor">
         <h1>Dev Team</h1>
     </div>
-    <Container className="my-5">
+    <Container className="my-2">
       <Row>
         {teamMembers.map((member, index) => (
           <Col key={index} xs={12} sm={6} md={4} lg={4} className="mb-4">
