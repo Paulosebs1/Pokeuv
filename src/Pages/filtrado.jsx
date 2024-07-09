@@ -9,15 +9,9 @@ const Filtro = () => {
 
   const handleSearch = async (e) => {
     e.preventDefault();
-    setError("");
-    if (pokemon.trim() === "") {
-        setError("El campo de búsqueda no puede estar vacío");
-        setSearchResult(null);
-        return;
-    }
-    
+    setError('');
     try {
-      const response = await axios.get("https://pokeapi.co/api/v2/pokemon/${pokemon.toLowerCase()}");
+      const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemon.toLowerCase()}`);
       setSearchResult(response.data);
     } catch (err) {
       setError('Pokemon no encontrado');
