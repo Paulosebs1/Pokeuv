@@ -9,9 +9,15 @@ const Filtro = () => {
 
   const handleSearch = async (e) => {
     e.preventDefault();
-    setError('');
+    setError("");
+    if (pokemon.trim() === "") {
+        setError("El campo de búsqueda no puede estar vacío");
+        setSearchResult(null);
+        return;
+    }
+    
     try {
-      const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemon.toLowerCase()}`);
+      const response = await axios.get("https://pokeapi.co/api/v2/pokemon/${pokemon.toLowerCase()}");
       setSearchResult(response.data);
     } catch (err) {
       setError('Pokemon no encontrado');
@@ -43,14 +49,16 @@ const Filtro = () => {
       {resultado && (
         <Row className="justify-content-md-center mt-2">
           <Col md="auto">
-            <Card style={{ width: "200px" }}>
+            <Card style={{ width: "auto" }}>
               <Card.Img variant="top" src={resultado.sprites.front_default} />
               <Card.Body>
-                <Card.Title>Nombre:{resultado.name}</Card.Title>
+                <Card.Title>Nombre: {resultado.name}</Card.Title>
                 <Card.Text>
-                  <strong>Height:</strong> {resultado.height}
+                  <strong>Altura:</strong> {resultado.height} m
                   <br />
-                  <strong>Weight:</strong> {resultado.weight}
+                  <strong>Peso:</strong> {resultado.weight} kg
+                  <br />
+                  <strong>Habilidades</strong> {resultado.abilities[0].ability.name}, {resultado.abilities[1].ability.name}
                 </Card.Text>
               </Card.Body>
             </Card>

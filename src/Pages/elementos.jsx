@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Spinner } from 'react-bootstrap';
 import PokemonCard from './pokemoncard';
 
 const elementos = () => {
@@ -9,7 +9,7 @@ const elementos = () => {
 
   useEffect(() => {
     const fetchPokemon = async () => {
-      const response = await axios.get('https://pokeapi.co/api/v2/pokemon?limit=121');
+      const response = await axios.get('https://pokeapi.co/api/v2/pokemon?limit=120');
       const promises = response.data.results.map(async (pokemon) => {
         const result = await axios.get(pokemon.url);
         return result.data;
@@ -23,7 +23,9 @@ const elementos = () => {
   }, []);
 
   if (loading) {
-    return <div><h1 class="text-center">Cargando...</h1></div>;
+    return <div><h1 class="text-center">Cargando...</h1>
+    <Spinner animation="border" variant="black"/>
+    </div>;
   }
 
   return (<div>
