@@ -4,18 +4,23 @@ import { Form, Button, Container, Row, Col, Card } from 'react-bootstrap';
 
 const Filtro = () => {
   const [pokemon, setPokemon] = useState('');
-  const [resultado, setSearchResult] = useState(null);
+  const [resultado, setResultado] = useState(null);
   const [error, setError] = useState('');
 
   const handleSearch = async (e) => {
     e.preventDefault();
+    if (pokemon.trim() === '') {
+      setError("Ingrese un nombre o ID del Pokémon");
+      setResultado(null);
+      return;
+    }
     setError('');
     try {
       const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemon.toLowerCase()}`);
-      setSearchResult(response.data);
+      setResultado(response.data);
     } catch (err) {
-      setError('ERROR: Escriba el numero o su nombre sin faltas');
-      setSearchResult(null);
+      setError("ERROR: Escriba el numero o su nombre sin faltas");
+      setResultado(null);
     }
   };
 
@@ -43,7 +48,7 @@ const Filtro = () => {
       {resultado && (
         <Row className="justify-content-md-center mt-2">
           <Col md="auto">
-            <Card style={{ width: "auto" }}>
+            <Card style={{ width: 'auto' }}>
               <Card.Img variant="top" src={resultado.sprites.front_default} />
               <Card.Body>
                 <Card.Title>Nombre: {resultado.name}</Card.Title>
@@ -52,7 +57,7 @@ const Filtro = () => {
                   <br />
                   <strong>Peso:</strong> {resultado.weight} kg
                   <br />
-                  <strong>Habilidades</strong> {resultado.abilities[0].ability.name}, {resultado.abilities[1].ability.name}
+                  <strong>Habilidades:</strong> {resultado.abilities[0].ability.name}, {resultado.abilities[1].ability.name}
                 </Card.Text>
               </Card.Body>
             </Card>

@@ -33,7 +33,7 @@ const elementos = () => {
         <Container>
         <Row>
             {pokemonList.map(pokemon => (
-            <Col key={pokemon.id} sm={12} md={6} lg={3}>
+            <Col key={pokemon.id} xs={12} sm={6} md={4} lg={3}>
                 <PokemonCard pokemon={pokemon} />
             </Col>
             ))}

@@ -5,8 +5,8 @@ function About() {
         <Container>
             <Row>
                 <Col className="my-4">
-                    <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" alt="" />
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="" width={"200px"}/>
+                    <a href="https://pokeapi.co/"><img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" alt="Logo pokeapi"/></a>
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Pikachu" width={"200px"}/>
                 </Col>
                 <Col className="my-3">
                     <h3 class="text-center">¿Que es Pokeapi?</h3>

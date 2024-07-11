@@ -16,7 +16,7 @@ function navbarpag() {
                                 <Nav.Link as={Link} to="/elementos">Elementos</Nav.Link>
                             </Col>   
                             <Col>    
-                                <Nav.Link as={Link} to="/filtrado_de_datos">Filtro</Nav.Link>
+                                <Nav.Link as={Link} to="/filtrado_de_datos">Buscador</Nav.Link>
                             </Col>   
                             <Col>
                                 <Nav.Link as={Link} to="/about">Informacion</Nav.Link>
