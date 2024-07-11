@@ -3,8 +3,8 @@ import { Card, Badge } from 'react-bootstrap';
 
 const PokemonCard = ({ pokemon }) => {
   return (
-    <Card style={{ width: 'auto' }}>
-      <Card.Img variant="top" src={pokemon.sprites.front_default} />
+    <Card style={{ width: "auto" }}>
+      <Card.Img variant="top" src={pokemon.sprites.front_default}/>
       <Card.Body>
         <Card.Title>{pokemon.name}</Card.Title>
         <Card.Text>

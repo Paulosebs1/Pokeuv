@@ -3,6 +3,12 @@ import { Card, Container, Row, Col } from 'react-bootstrap';
 
 const teamMembers = [
   {
+    name: "Paulo González",
+    role: "Coordinador y Programador",
+    pokemon: "Marill",
+    imgSrc: "public/imgpaulo.png"
+  },
+  {
     name: "Martín Cáceres",
     role: "Diseñador Principal y PixelArt",
     pokemon: 'Darumaka',
@@ -13,12 +19,6 @@ const teamMembers = [
     role: "Coordinador y Programador",
     pokemon: "Blaziken",
     imgSrc: "public/imgangelo.png"
-  },
-  {
-    name: "Paulo González",
-    role: "Coordinador y Programador",
-    pokemon: "Marill",
-    imgSrc: "public/imgpaulo.png"
   },
   {
     name: "Benjamín Serrano",

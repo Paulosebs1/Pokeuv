@@ -23,13 +23,14 @@ const elementos = () => {
   }, []);
 
   if (loading) {
-    return <div><h1 class="text-center">Cargando...</h1>
-    <Spinner animation="border" variant="black"/>
+    return <div className='text-center'>
+      <h1>Cargando...</h1>
+      <Spinner className='my-5' animation="border" variant="black" />
     </div>;
   }
 
-  return (<div>
-        <h1 class="text-center">Lista de pokemons</h1>
+  return (<div class="element">
+        <h1 className="text-center">Lista de pokemons</h1>
         <Container>
         <Row>
             {pokemonList.map(pokemon => (

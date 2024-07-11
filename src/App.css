@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
 /*Mantener por defecto*/
 #root {
   max-width: 1280px;
@@ -13,7 +15,9 @@ h1{
   font-family: cursive;
 }
 h4{
-  font-family: cursive;
+  padding-top: 10px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
 }
 .prueba{
   background-color: goldenrod;
@@ -22,6 +26,21 @@ h4{
   padding-bottom: 25px;
 }
 /*Elementos*/
+.element{
+  padding-top: 200px;
+}
+/*Informacion*/
+h3{
+  font-family: cursive;
+}
+p{
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+}
+ul{
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+}
 
 /**/
 .pokegallery{

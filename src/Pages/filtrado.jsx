@@ -44,9 +44,7 @@ const Filtro = () => {
           </Form>
           {error && <p className="text-danger mt-3">{error}</p>}
         </Col>
-      </Row>
-      {resultado && (
-        <Row className="justify-content-md-center mt-2">
+        {resultado && (
           <Col md="auto">
             <Card style={{ width: 'auto' }}>
               <Card.Img variant="top" src={resultado.sprites.front_default} />
@@ -62,8 +60,8 @@ const Filtro = () => {
               </Card.Body>
             </Card>
           </Col>
-        </Row>
-      )}
+        )}
+      </Row>
     </Container>
   );
 };
