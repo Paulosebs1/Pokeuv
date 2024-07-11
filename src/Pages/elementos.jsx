@@ -9,7 +9,7 @@ const elementos = () => {
 
   useEffect(() => {
     const fetchPokemon = async () => {
-      const response = await axios.get('https://pokeapi.co/api/v2/pokemon?limit=120');
+      const response = await axios.get('https://pokeapi.co/api/v2/pokemon?limit=151');
       const promises = response.data.results.map(async (pokemon) => {
         const result = await axios.get(pokemon.url);
         return result.data;

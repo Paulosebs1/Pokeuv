@@ -14,7 +14,7 @@ const Filtro = () => {
       const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemon.toLowerCase()}`);
       setSearchResult(response.data);
     } catch (err) {
-      setError('Pokemon no encontrado');
+      setError('ERROR: Escriba el numero o su nombre sin faltas');
       setSearchResult(null);
     }
   };
