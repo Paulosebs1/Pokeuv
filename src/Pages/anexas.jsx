@@ -8,7 +8,7 @@ function Anex() {
                     <img src="https://i.pinimg.com/564x/f9/fe/07/f9fe0795a5314a2097fd1cab420ac5a5.jpg" alt="" width={"230px"}/>
                 </Col>
                 <Col className="text-center" sm={12} lg={6}>
-                <h1 className="text-center">Recursos utilizados</h1>
+                <h1 className="text-center my-3">Recursos utilizados</h1>
                     <Row className="my-4 justify-content-center vertical-content-center" sm={6} lg={4}>
                         <Col>
                             <a href="https://getbootstrap.com/"><img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="" width={"80px"}/></a>
