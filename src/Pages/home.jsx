@@ -10,7 +10,7 @@ function Home() {
             <Col className="my-5 text-center" sm={12} lg={6}>
                 <div class="prueba">
                     <h1>Bienvenidos a Pokeuv <br/></h1>
-                    <h4>Una pokedex creada por estudiantes de Ing. Civil Informatica uv</h4>
+                    <h4>Una pokedex creada por estudiantes de Ing. Civil Informatica</h4>
                 </div>
             </Col>
             <Col className="my-4 d-flex justify-content-center" sm={6} lg={3}>
