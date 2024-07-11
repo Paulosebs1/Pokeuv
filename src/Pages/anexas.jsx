@@ -14,21 +14,29 @@ function Anex() {
                             <a href="https://getbootstrap.com/"><img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="" width={"80px"}/></a>
                             <h6>Bootstrap</h6>
                         </Col>
-                        <Col>
-                            <a href="https://react.dev/"><svg width="60px" viewBox="-10.5 -9.45 21 18.9" fill="none" xmlns="http://www.w3.org/2000/svg" class="uwu-hidden mt-4 mb-3 text-brand dark:text-brand-dark w-24 lg:w-28 self-center text-sm me-0 flex origin-center transition-all ease-in-out"><circle cx="0" cy="0" r="2" fill="currentColor"></circle><g stroke="currentColor" stroke-width="1" fill="none"><ellipse rx="10" ry="4.5"></ellipse><ellipse rx="10" ry="4.5" transform="rotate(60)"></ellipse><ellipse rx="10" ry="4.5" transform="rotate(120)"></ellipse></g></svg></a>
-                            <h6>React</h6>
-                        </Col>
-                        <Col>
-                            <a href="https://pokeapi.co/"><img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" alt="" width={"100px"}/></a>
-                            <h6>PokeApi</h6>
-                        </Col>
-                        <Col>
+                        <Col className="my-3">
                             <a href=""><img src="./public/react-router.png" alt="" width={"70px"}/></a>
                             <h6>React-Router</h6>
                         </Col>
+                        <Col className="my-4">
+                            <a href="https://nodejs.org/en"><img src="https://nodejs.org/static/logos/nodejsDark.svg" alt="" width={"100px"}/></a>
+                            <h6>Nodejs</h6>
+                        </Col>
                         <Col>
-                            <a href=""><img src="" alt="" width={"100px"}/></a>
-                            <h6></h6>
+                            <a href="https://github.com/Paulosebs1/Pokeuv"><img src="./public/github-mark.png" alt="" width={"60px"}/></a>
+                            <h6>GitHub</h6>
+                        </Col>
+                        <Col className="my-4">
+                            <a href="https://pokeapi.co/"><img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" alt="" width={"100px"}/></a>
+                            <h6>PokeApi</h6>
+                        </Col>
+                        <Col className="my-4">
+                            <a href="https://git-scm.com/"><img src="https://git-scm.com/images/logo@2x.png" alt="" width={"100px"}/></a>
+                            <h6>git</h6>
+                        </Col>
+                        <Col>
+                            <a href="https://react.dev/"><img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-1024.png" alt="" width={"70px"}/></a>
+                            <h6>React</h6>
                         </Col>
                     </Row>
                 </Col>
