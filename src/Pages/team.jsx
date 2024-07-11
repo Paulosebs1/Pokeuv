@@ -42,7 +42,7 @@ const teamMembers = [
 
 const TeamProfiles = () => {
   return (<div>
-    <div class="contenedor">
+    <div className="text-center">
         <h1>Desarrolladores</h1>
     </div>
     <Container className="my-2">

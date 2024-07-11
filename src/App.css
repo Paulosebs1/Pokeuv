@@ -1,3 +1,4 @@
+/*Mantener por defecto*/
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -7,29 +8,22 @@ section{
   color: black;
   background-color: #d6cce0;
 }
-
+/*Home*/
 h1{
   font-family: cursive;
-  padding-top: 15px;
 }
-
-.contenedor{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+h4{
+  font-family: cursive;
 }
-
-.logo{
+.prueba{
+  background-color: goldenrod;
+  border-radius: 50px;
   padding-top: 25px;
-  width: 350px;
+  padding-bottom: 25px;
 }
+/*Elementos*/
 
-.Infor{
-  text-align: center;
-  justify-content: center;
-}
-
+/**/
 .pokegallery{
   
   display: flex;
