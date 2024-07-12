@@ -10,22 +10,22 @@ function navbarpag() {
                     <Nav className="me-auto">
                         <Row>
                             <Col>
-                                <Nav.Link as={Link} to="/">Inicio</Nav.Link>
+                                <Nav.Link as={Link} to="/"><button type="button" class="button">Inicio</button></Nav.Link>
                             </Col>   
                             <Col>
-                                <Nav.Link as={Link} to="/elementos">Elementos</Nav.Link>
+                                <Nav.Link as={Link} to="/elementos"><button type="button" class="button">Lista</button></Nav.Link>
                             </Col>   
                             <Col>    
-                                <Nav.Link as={Link} to="/filtrado_de_datos">Buscador</Nav.Link>
+                                <Nav.Link as={Link} to="/filtrado_de_datos"><button type="button" class="button">Filtro</button></Nav.Link>
                             </Col>   
                             <Col>
-                                <Nav.Link as={Link} to="/about">Informacion</Nav.Link>
+                                <Nav.Link as={Link} to="/about"><button type="button" class="button">About</button></Nav.Link>
                             </Col>   
                             <Col>
-                                <Nav.Link as={Link} to="/pag_anexas">Anexos</Nav.Link>
+                                <Nav.Link as={Link} to="/pag_anexas"><button type="button" class="button">Anexos</button></Nav.Link>
                             </Col>   
                             <Col>    
-                                <Nav.Link as={Link} to="/dev_team">Desarrolladores</Nav.Link>
+                                <Nav.Link as={Link} to="/dev_team"><button type="button" class="button">Desarrolladores</button></Nav.Link>
                             </Col>
                         </Row>
                     </Nav>

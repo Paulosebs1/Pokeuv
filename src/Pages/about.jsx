@@ -9,17 +9,19 @@ function About() {
                     <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Pikachu" width={"200px"}/>
                 </Col>
                 <Col className="my-3">
-                    <h3 class="text-center">¿Que es Pokeapi?</h3>
-                    <p class="text-center" >
-                        Este sitio web ofrece una interfaz API RESTful para objetos muy detallados creados a partir de miles de
-                        líneas de datos relacionados con Pokémon. Cubrimos específicamente la franquicia de videojuegos.
-                        Al utilizar este sitio web, puedes consumir información sobre Pokémon,
-                        sus movimientos, habilidades, tipos, grupos de huevos y mucho, mucho más.
-                    </p>
+                    <div >
+                        <h3 class="text-center ABOUT1">¿Que es Pokeapi?</h3>
+                        <p class="text-center ABOUT1" >
+                            Este sitio web ofrece una interfaz API RESTful para objetos muy detallados creados a partir de miles de
+                            líneas de datos relacionados con Pokémon. Cubrimos específicamente la franquicia de videojuegos.
+                            Al utilizar este sitio web, puedes consumir información sobre Pokémon,
+                            sus movimientos, habilidades, tipos, grupos de huevos y mucho, mucho más.
+                        </p>
+                    </div>
                 </Col>
                 <Col className="my-3">
-                    <h3 class="text-center">¿Que información almacena?</h3>
-                    <ul>
+                    <h4 class="text-center ABOUT1">¿Que información almacena?</h4>
+                    <ul clasS="ABOUT1">
                         <li>Movimientos</li>
                         <li>Abilidades</li>
                         <li>Pokémones</li>

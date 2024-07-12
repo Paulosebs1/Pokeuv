@@ -12,31 +12,31 @@ function Anex() {
                     <Row className="my-4 justify-content-center vertical-content-center" sm={6} lg={4}>
                         <Col>
                             <a href="https://getbootstrap.com/"><img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="" width={"80px"}/></a>
-                            <h6>Bootstrap</h6>
+                            <p className="my-2">Bootstrap</p>
                         </Col>
                         <Col className="my-3">
                             <a href=""><img src="./public/react-router.png" alt="" width={"70px"}/></a>
-                            <h6>React-Router</h6>
+                            <p className="my-2">React-Router</p>
                         </Col>
                         <Col className="my-4">
                             <a href="https://nodejs.org/en"><img src="https://nodejs.org/static/logos/nodejsDark.svg" alt="" width={"100px"}/></a>
-                            <h6>Nodejs</h6>
+                            <p className="my-2">Nodejs</p>
                         </Col>
                         <Col>
                             <a href="https://github.com/Paulosebs1/Pokeuv"><img src="./public/github-mark.png" alt="" width={"60px"}/></a>
-                            <h6>GitHub</h6>
+                            <p className="my-2">GitHub</p>
                         </Col>
                         <Col className="my-4">
                             <a href="https://pokeapi.co/"><img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" alt="" width={"100px"}/></a>
-                            <h6>PokeApi</h6>
+                            <p className="my-2">PokeApp</p>
                         </Col>
                         <Col className="my-4">
                             <a href="https://git-scm.com/"><img src="https://git-scm.com/images/logo@2x.png" alt="" width={"100px"}/></a>
-                            <h6>git</h6>
+                            <p className="my-2">git</p>
                         </Col>
                         <Col>
                             <a href="https://react.dev/"><img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-1024.png" alt="" width={"70px"}/></a>
-                            <h6>React</h6>
+                            <p className="my-2">React</p>
                         </Col>
                     </Row>
                 </Col>

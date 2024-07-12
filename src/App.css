@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 /*Mantener por defecto*/
 #root {
   max-width: 1280px;
   margin: 0 auto;
+  font-family: "Press Start 2P", system-ui;
+  font-size: calc(1px + 2vmin);
 }
 
 section{
@@ -11,17 +13,17 @@ section{
   background-color: #d6cce0;
 }
 /*Home*/
-h1{
-  font-family: cursive;
+h3{
+  color: blue;
 }
 h4{
   padding-top: 10px;
-  font-family: "Libre Baskerville", serif;
   font-weight: 400;
 }
 .prueba{
-  background-color: goldenrod;
-  border-radius: 50px;
+  background-color: white;
+  border: solid;
+  border-radius: 0.5rem;
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -30,16 +32,19 @@ h4{
   padding-top: 10px;
 }
 /*Informacion*/
-h3{
-  font-family: cursive;
-}
 p{
-  font-family: "Libre Baskerville", serif;
   font-weight: 400;
 }
 ul{
-  font-family: "Libre Baskerville", serif;
   font-weight: 400;
+}
+/*ABOUT*/
+.ABOUT1{
+  background-color: white;
+  border: solid;
+  border-radius: 0.5rem;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 /**/
@@ -58,4 +63,12 @@ margin: 10px;
 border-radius: 5px;
 box-shadow: 6px 10px 5px 0px rgba(199,197,199,0.75);
 text-align: center;
+}
+
+.button{
+  background-color: white;
+  border: solid;
+  border-radius: 0.5rem;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
