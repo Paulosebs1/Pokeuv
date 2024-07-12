@@ -1,6 +1,7 @@
 {
   "name": "pokeuv",
   "private": true,
+  "homepage": "https://paulosebs1.github.io/Pokeuv/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
