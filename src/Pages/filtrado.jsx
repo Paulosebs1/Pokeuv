@@ -43,7 +43,6 @@ const Filtro = () => {
             </Button>
           </Form>
           {error && <p className="text-danger mt-3">{error}</p>}
-          <img className="my-3" src="https://i.pinimg.com/564x/f4/3a/29/f43a290acbf20483e955e21ca48fce16.jpg" alt="" width={"300px"}/>
         </Col>
         {resultado && (
           <Col md="auto"> 
